@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(25, 141, 25);
+    width: 100%;
+    height: 300px;
+}
+.footertitulo{
+    font-size: large;
+}
+div h2{
+    font-size: 50px;
+}
+div p{
+    font-size: 30px;
+}
+.navBar{
+    list-style: none;
+}
+.navBar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.textoNav p{
+    font-size: 30px;
+}
+main{
+    background-color: floralwhite;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+section h1{
+    text-align: center;
+    font-size: 150px;
+} 
+.herbo{
+    padding: 30px;
+}
+.herbo h1 a{
+    font-size: 90px;
+    color: black;
+    
+}
+.botonesIndex a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.botonHerbo{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 50px;
+}
+.listado{
+    padding: 30px;
+}
+.prepa{
+    padding: 30px;
+}
+.textoCrema{
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.formulario{
+    padding: 30px;
+}
+.botonprepa{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 50px;
+}
+.botonperfu{
+    padding: 25px;
+    background-color:lightgreen;
+    width: fit-content;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.botonesOtro{
+    padding: 30px;
+}
+.botonotros{
+    padding: 25px;
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 50px;
+}
+.botonInicioOtros{
+    padding: 30px;
+}
+footer{
+    background-color: lightgreen;
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+}
+footer section p{
+    font-size: large;
+}
+div img{
+    width: 150px;
+    height: 150px;
+}
+div h3{
+    font-size: 80px;
+}
+div p{
+    font-size: 70px;
+    letter-spacing: 8px;
+}
+.botonListado a{
+    background-color: lightgreen;
+    font-size: 70px;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imagenHierba img{
+    margin: 160px;
+    width: 500px;
+    height: 670px;
+}
+.tituloPerfu h1{
+    padding: 50px;
+    font-size: 90px;
+    text-align: center;
+}
+.perfumes img{
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-bottom: 150px;
+    width: 400px;
+    height: 400px;
+}
+.botonesPerfu a{
+    text-decoration: none;
+    color: black;
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.botonPerfu1{
+    margin-bottom: 50px;
+}
+.botonInicioPrepa{
+    padding: 30px;
+}
+.botonPerfu2{
+    margin-bottom: 50px;
+}
+.botonPerfu3{
+    margin-bottom: 50px;
+}
+.botonPerfu4{
+    margin-bottom: 50px;
+}
+.botonInicio a img{
+    background-color: lightgreen;
+    text-decoration: none;
+}
+.imgOtros img{
+    padding: 30px;
+    margin-top: 90px;
+    margin-right: 70px;
+    width: 500px;
+    height: 500px;
+}
+.imgOtros2 img{
+    padding: 30px;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    width: 500px;
+    height: 500px;
+}
+.botonesOtro a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgreen;
+}
+.botiquin{
+    margin-bottom: 50px;
+}
+.vendas{
+    margin-bottom: 50px;
+}
+.tensiometro{
+    margin-bottom: 50px;
+}
+.termometro{
+    margin-bottom: 50px;
+}
+.balanzas{
+    margin-bottom: 50px;
+}
+.nutricion{
+    margin-bottom: 50px;
+}
+.crema img{
+    padding-bottom: 50px;
+    width: 500px;
+    height: 500px;
+}
+.crema{
+    padding-bottom: 100px;
+}
+.crema a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.textoGotas{
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.gotas img{
+    padding-bottom: 50px;
+    width: 500px;
+    height: 500px;
+}
+.gotas a{
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+}
+.shampoo img{
+    padding-bottom: 50px;
+    width:500px ;
+    height: 500px;
+}
+.shampoo a{
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+}
+.textoShampoos{
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shampoo{
+    padding-top: 100px;
+}
+.formulario{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.titOtros h1{
+    font-size: 80px;
+}
+.botonInicio a{
+    font-size: 80px;
+    text-decoration: none;
+    color: black;
+    background-color: lightgreen;
+    border-radius: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.botonInicio img{
+    margin-top: 80px;
+    width: 120px;
+    height: 70px;
+    border-radius: 50px;
+}
+.herbo{
+    padding: 30px;
+
+}
+.titPrep h1{
+    padding: 50px;
+    font-size: 90px;
+}
+.titHerbo h1{
+    font-size: 90px;
+    padding-bottom: 50px;
+}
+.parrafoHerbo p{
+    padding: 30px;
+    font-size: 70px;
+}
+.parrafoHerbo h3{
+    font-size: 80px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.container1 div img{
+    width: 150px;
+    height: 150px;
+}
+.navBar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+}
+.textoNav{
+    display: flex;
+    flex-direction: column;
+}
+.container-grid1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    display: grid;
+    
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
