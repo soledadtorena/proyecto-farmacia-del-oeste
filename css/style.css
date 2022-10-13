@@ -40,20 +40,19 @@ main{
 }
 section h1{
     text-align: center;
-    font-size: 150px;
+    font-size: 90px;
 } 
 .herbo{
-    padding: 30px;
+    padding: 90px;
 }
 .herbo h1 a{
-    font-size: 90px;
-    color: black;
-    
+    font: size 90px;
+    color: black; 
 }
 .botonesIndex a{
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 50px;
 }
 .botonHerbo{
     padding: 25px;
@@ -79,6 +78,8 @@ section h1{
 }
 .formulario{
     padding: 30px;
+    width: 100%;
+    height: 30px;
 }
 .botonprepa{
     padding: 25px;
@@ -114,8 +115,11 @@ footer{
 }
 footer section p{
     font-size: large;
+    padding-left: 20px;
+    font-size: 35px;
 }
 div img{
+    display: flex;
     width: 150px;
     height: 150px;
 }
@@ -303,12 +307,10 @@ div p{
     padding-right: 20px;
     padding-left: 20px;
 }
-.botonInicio img{
-    margin-top: 80px;
-    width: 120px;
-    height: 70px;
-    border-radius: 50px;
+.botonInicio{
+    margin-top: 50px;
 }
+
 .herbo{
     padding: 30px;
 
@@ -319,14 +321,13 @@ div p{
 }
 .titHerbo h1{
     font-size: 90px;
-    padding-bottom: 50px;
+    padding: 30px;
 }
 .parrafoHerbo p{
-    padding: 30px;
     font-size: 70px;
 }
 .parrafoHerbo h3{
-    font-size: 80px;
+    font-size: 70px;
 }
 .container1{
     display: flex;
@@ -334,8 +335,8 @@ div p{
     padding: 30px;
 }
 .container1 div img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 .navBar{
     display: flex;
@@ -349,10 +350,12 @@ div p{
 }
 .container-grid1{
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
     grid-template-areas: 
     "header header header header"
+    "main main main main"
     "main main main main"
     "main main main main"
     "main main main main"
@@ -361,8 +364,6 @@ div p{
 }
 header{
     grid-area: header;
-    display: grid;
-    
 }
 main{
     grid-area: main;
@@ -370,6 +371,92 @@ main{
 footer{
     grid-area: footer;
 }
+footer{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: auto;
+    height: auto;
+}
+.footerTexto p{
+    display: flex;
+    justify-content: left;
+    padding-top: 20px
+}
+section.logos{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: end;
+}
+.mainIndex{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+    justify-items: center;
+}
+.botonesIndex{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 80px;
+    grid-auto-rows: 30%;
+}
+.container-grid-herbo{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+}
+.imagenHierba{
+    display: grid;
+    justify-content: center;
+}
+.parrafoHerbo h3{
+    display: grid;
+    justify-content: center;
+}
+.parrafoHerbo p{
+    display: flex;
+    justify-content: center;
+}
+.botonListado{
+    display: flex;
+    justify-content: center;
+}
+.botonInicio{
+    display: flex;
+    justify-content: center;
+}
+.prepa{
+    display: grid;
+    justify-content: center;
+}
+.crema a{
+    display: flex;
+    justify-content: center;
+}
+.gotas a{
+    display: inline-flex;
+    justify-self: center;
+}
+.formulario{
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
