@@ -32,7 +32,7 @@ main{
     background-color: floralwhite;
     height: 100%;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .banner img{
     width: 100%;
@@ -53,6 +53,11 @@ section h1{
     text-decoration: none;
     color: black;
     font-size: 50px;
+}
+.botonesIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .botonHerbo{
     padding: 25px;
@@ -147,6 +152,11 @@ div p{
     width: 500px;
     height: 670px;
 }
+.mainPerfu{
+    width: 100%;
+    height: 100vh;
+}
+
 .tituloPerfu h1{
     padding: 50px;
     font-size: 90px;
@@ -394,11 +404,6 @@ section.logos{
     justify-items: center;
 }
 .botonesIndex{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: flex-start;
-    justify-content: space-around;
-    justify-items: center;
     padding-top: 80px;
     grid-auto-rows: 30%;
 }
@@ -435,13 +440,336 @@ section.logos{
     justify-content: center;
 }
 .gotas a{
-    display: inline-flex;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
 }
 .formulario{
     width: 100%;
     height: 30px;
 }
+.container-perfu{
+    display: flex;
+    justify-content: center;
+}
+.perfumes{
+    display: flex;
+    justify-content: center;
+}
+.botonesPerfu{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-items: center;
+    row-gap: 30px;
+}
+@media (max-width: 768px){
+    .container-grid1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+        width: 768px;
+        height: 1200px;
+    }
+    body{
+        width: 768px;
+        height: 1200px;
+    }
+    div.container1{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: 350px;
+    }
+    header{
+        width: 768px;
+        height: 350px;
+    }
+    main{
+        width:768px;
+        height: 900px;
+    }
+    section h1{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .botonesIndex a{
+        font-size: 20px;
+        width: 768px;
+        height: 600px;
+    }
+    footer{
+        width: 768px;
+        height: 250px;
+    }
+    div.imagenLogoHeader img{
+        width: 100px;
+        height: 100px;
+    }
+    .footerTexto p{
+        font-size: 20px;
+    }
+    div img{
+        width: 70px;
+        height: 70px;
+    }
+    section.logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    div.footerWa{
+        padding-bottom: 10px;
+    }
+    
+    .footerTitulo{
+        font-size: 10px;
+    }
+    div h2{
+        font-size: 20px;
+    }
+    div.textoNav p{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .navBar li a{
+        font-size: 15px;   
+        font-weight: bolder; 
+
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: row;
+    }
+    section.banner img{
+        width: 768px;
+        height: 300px;
+    }
+}
+@media (max-width:576px){
+    body{
+        width: 576px;
+        height: 900px;
+    }
+    .container-grid1{
+        width: 576px;
+        height: 900px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        margin-right: 0px;
+    }
+    .container1{
+        width: 576px;
+        height: 280px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        display: flex;
+    }
+    div.textoNav{
+        display: flex;
+    }
+    ul.navBar{
+        display: flex;
+        flex-direction: row;
+    }
+    div.imagenLogoHeader{
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    div.titIndexHeader{
+        display: flex;
+    }
+    header{
+        width: 576px;
+        height: 300px;
+        display: flex;
+    }
+    section.banner img{
+        width: 576px;
+        height: 200px;
+    }
+    main{
+        width: 576px;
+        height: 900px;
+        margin-top: 0px;
+    }
+    footer{
+        width: 576px;
+        height: 250px;
+    }
+    .botonesIndex a{
+        font-size: 20px;
+        padding: 8px;
+    }
+    .botonesIndex{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-top: 30px;
+    }
+    section h1{
+        font-size: 40px;
+    }
+    .footerTexto p{
+        font-size: 15px;
+    }
+    .footerWa img{
+        width: 70px;
+        height: 70px;
+        display: flex;
+    }
+    .footerFa img{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media (max-width: 768px){
+    .headerPerfu{
+        width: 768px;
+        height: 300px;
+    }
+    .container-grid-perfu{
+        width: 768px;
+        height: 970px;
+    }
+    body{
+        width: 768px;
+        height: 1200px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenLogoHeader img{
+        width: 80px;
+        height: 80px;
+    }
+    .imagenLogoHeader{
+        display: flex;
+    }
+    .container-perfu{
+        width: 768px;
+        height: 900px;
+    }
+    .main{
+        width: 768px;
+        height: 900px;
+    }
+    .tituloPerfu h1{
+        font-size: 30px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .tituloPerfu{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        
+    }
+    .perfumes img{
+        width: 250px;
+        height: 250px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    div.perfumes{
+        display: flex;
+    }
+    
+    .botonesPerfu a{
+        font-size: 20px;
+        row-gap: 20px;
+    }
+    .botonInicioPerfu a{
+        font-size: 20px;
+        padding: 20px;
+    }
+    div.botonInicio{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px){
+    .container-grid-perfu{
+        width: 576px;
+        height:900px;
+    }
+    div.container1{
+        width: 576px;
+        height: 340px;
+    }
+    header{
+        width: 576px;
+        height: 350px;
+    }
+    main{
+        width: 576px;
+        height: 900px;
+    }
+    ul.navBar a{
+        font-size: 13px;
+    }
+    ul.navBar{
+        padding-right: 5px;
+    }
+    .headerPerfu{
+        width: 576px;
+        height: 300px;
+    }
+    div.tituloPerfu h1{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .perfumes img{
+        width: 250px;
+        height: 270px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    div.botonesPerfu a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .botonesPerfu{
+        row-gap: 10px;
+    }
+    div.botonInicioPerfu a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    div.botonInicio{
+        margin-top: 40px;
+    }
+    footer{
+        width: 576px;
+        height: 200px;
+        padding-top:0px;
+        display: flex;
+        align-items: center;
+    }
+    .botonPerfu4{
+        margin-bottom: 20px;
+    }
+    div.footerWa{
+        padding-bottom: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 
