@@ -1,0 +1,46 @@
+main.mainHerbo{
+    width: 100%;
+    height: 1560px;
+}
+.imagenHierba{
+    display: grid;
+    justify-content: center;
+    img{
+    margin: 30px;
+    width: 300px;
+    height: 470px;
+    }
+}
+.herbo{
+    padding: $pad30;
+}
+.titHerbo h1{
+    font-size: $medida-titulos-main;
+    padding: $pad30;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.parrafoHerbo h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    display: grid;
+    justify-content: center;  
+}
+.parrafoHerbo p{
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+}
+.botonListado{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    a{
+     @include prop-botones;   
+}
+
+}

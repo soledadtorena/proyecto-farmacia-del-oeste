@@ -1,0 +1,49 @@
+header{
+    background-color: rgb(25, 141, 25);
+    width: 100%;
+    height:300px;
+    h2{
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    }
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    div img{
+        width: 100px;
+        height: 100px;
+        display: flex;
+    }
+}
+.textoNav p{
+    font-size: 20px;
+    letter-spacing: 8px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.navBar{
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+    padding-right: 20px;
+    li{
+        list-style: none;
+    a{
+        text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    &:hover{
+        color: #f8f9fa;
+    }
+    }
+    }
+}
+div.titIndexHeader{
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+main.mainPerfumeria{
+    width: 100%;
+    height: 1250px;
+    background-color: floralwhite;
+}
+main{
+    grid-area: main;
+}
+div.tituloPerfu h1{
+    padding: 50px;
+    font-size: $medida-titulos-main;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+.perfumes{
+    display: flex;
+    justify-content: center;
+img{
+    margin-top: 5px;
+    width: 300px;
+    height: 300px;
+}
+}
+.botonesPerfu{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-items: center;
+    row-gap: 60px;
+    a{
+    @include prop-botones;
+    }
+}
+section.perfu{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

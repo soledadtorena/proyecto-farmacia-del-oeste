@@ -1,0 +1,61 @@
+@media (max-width:768px){
+    body.bodyIndex{
+        width: 768px;
+        height: 1200px;
+    }
+    header{
+        width: 768px;
+        height: 300px;
+    }
+    div.container1{
+        width: 768px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+    div.titIndexHeader h2{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .textoNav p{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+}
+.navBar li a{
+        font-size: 15px;
+        font-weight: bolder;
+        color:#f8f9fa;
+}
+section.banner img{
+    width: 100%;
+    height: 300px;
+}
+section.mainIndex h1{
+    font-size: 30px;
+
+}
+.titHerbo h1{
+    font-size: 30px;
+}
+.parrafoHerbo p{
+    font-size: 20px;
+}
+.titOtros h1{
+    font-size: 30px;
+}
+.titHeader h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+}
+

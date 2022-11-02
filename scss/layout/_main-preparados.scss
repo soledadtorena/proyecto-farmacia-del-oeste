@@ -1,0 +1,110 @@
+main.mainPreparados{
+    width: 100%;
+    height: 1400px;
+}
+section div.titPrep h1{
+    text-align: center;
+    font-size: $medida-titulos-main;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 50px;
+} 
+section.prepa{
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    padding: $pad30;
+}
+.crema{
+    padding-bottom: 50px;
+    img{
+    @include prop-img-prep;
+    a{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    }
+    }
+}
+div.crema a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+}
+.textoCrema{
+    display: flex;
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 20px;
+    p{
+    font-size: 20px;
+    }
+}
+.gotas{
+    padding-bottom: 50px;
+    img{
+        @include prop-img-prep; 
+        a{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            }
+    }
+}
+div.gotas a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+
+}
+.textoGotas{
+    @extend .textoCrema;
+}
+.shampoo{
+    img{
+    @include prop-img-prep; 
+    a{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    }
+    }
+}
+div.shampoo a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+}
+.textoShampoos{
+    @extend .textoCrema
+}
+.formulario{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+.botonInicioPrepa{
+    padding: 20px;
+    margin-top: 70px;
+}
+.botonInicio{
+    display: flex;
+    justify-content: center;
+    a{
+    @include prop-botones;
+    }
+}
+
+
+
+

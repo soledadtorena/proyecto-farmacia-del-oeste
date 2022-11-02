@@ -1,0 +1,28 @@
+@media (max-width: 576px){
+    header{
+        width: 100%;
+        height: 300px;
+    }
+    main.mainIndex2{
+        width: 100%;
+        height: 1200px;
+    }
+    main.mainHerbo{
+        width: 100%;
+        height: 1560px;
+    }
+    div.textoNav p{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .imagenHierba img{
+        width: 150px;
+        height: 170px;
+    }
+    div.parrafoHerbo h3{
+        font-size: 20px;
+    }
+    .botonListado a{
+        font-size: 15px;
+    }
+}

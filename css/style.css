@@ -1,1111 +1,440 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-header{
-    background-color: rgb(25, 141, 25);
-    width: 100%;
-    height: 300px;
-}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
-.footertitulo{
+header {
+  background-color: #198d19;
+  width: 100%;
+  height: 300px; }
+  header h2 {
     font-size: 30px;
-    font-family:'Roboto', sans-serif;
-}
-div h2{
-    font-size: 30px;
-    font-family:'Roboto', sans-serif;
-}
-div p{
-    font-size: 30px;
-    font-family:'Roboto', sans-serif;
-}
-.navBar{
-    list-style: none;
-}
-.navBar li a{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    font-family:'Roboto', sans-serif;
-}
-.navBar li a:hover{
-    color: #f8f9fa;
-}
-.textoNav p{
-    font-size: 20px;
-}
-main{
-    background-color: floralwhite;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 80px;
-    margin-top: 0px;
-    width: 100%;
-    height: 1200px;
-}
-section.mainIndex{
-    width: 100%;
-    height: 900px;
-}
-.banner img{
-    width: 100%;
-    height: 600px;
-    margin-top: 0px;
-}
-section h1{
-    text-align: center;
-    font-size: 60px;
-    font-family:'Roboto', sans-serif;
-    font-weight: bold;
-    margin-top: 20px;
-} 
-.herbo{
-    padding: 90px;
-}
-.herbo h1 a{
-    font: size 60px;
-    color: black; 
-}
-.botonesIndex a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-family:'Roboto', sans-serif;
-}
-div.botonesIndex a:hover{
-    font-size: 45px;
-}
-.botonesIndex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.botonHerbo{
-    padding: 20px;
-    margin-bottom: 30px;
-    background-color: lightgreen;
-    width: fit-content;
-    border-radius: 50px;
-}
-.botonInicioHerbo{
-    padding: 20px;
-}
-.listado{
-    height: 300px;
-}
-.prepa{
-    padding: 30px;
-}
-.textoCrema{
-    background-color: lightgreen;
-    width: fit-content;
-    border-radius: 60px;
-    padding: 10px;
-}
-p.textoCrema {
-    font-size: 20px;
-    margin-top: 10px;
-}
-p.textoGotas{
-    font-size: 20px;
-    margin-top: 10px;
-}
-p.textoShampoos{
-    font-size: 20px;
-    margin-left: 7px;
-}
-.formulario{
-    padding: 30px;
-    width: 100%;
-    height: 30px;
-}
-.botonprepa{
-    padding: 25px;
-    margin-bottom: 30px;
-    background-color: lightgreen;
-    width: fit-content;
-    border-radius: 50px;
-}
-.botonperfu{
-    padding: 25px;
-    background-color:lightgreen;
-    width: fit-content;
-    border-radius: 50px;
-    margin-bottom: 30px;
-}
-.botonesOtro{
-    padding: 30px;
-}
-.botonotros{
-    padding: 25px;
-    background-color: lightgreen;
-    width: fit-content;
-    border-radius: 50px;
-}
-.botonInicioOtros{
-    padding: 20px;
-    margin-top: 0px;
-}
-.botonInicioOtros a{
-    font-size: 30px;
-}
-footer{
-    background-color: lightgreen;
-    width: 100%;
-    height: 400px;
-    padding-top: 20px;
-}
-footer section p{
-    padding-left: 20px;
-    font-size: 20px;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; }
 
-}
-div img{
-    display: flex;
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px; }
+  .container1 div img {
     width: 100px;
     height: 100px;
-}
-div h3{
-    font-size: 80px;
-}
-div p{
-    font-size: 70px;
-    letter-spacing: 8px;
-}
-.botonListado a{
-    background-color: lightgreen;
-    font-size: 30px;
-    font-family:'Roboto', sans-serif;
-    width: fit-content;
+    display: flex; }
+
+.textoNav p {
+  font-size: 20px;
+  letter-spacing: 8px;
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif; }
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 20px; }
+  .navBar li {
+    list-style: none; }
+    .navBar li a {
+      text-decoration: none;
+      color: black;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif; }
+      .navBar li a:hover {
+        color: #f8f9fa; }
+
+div.titIndexHeader {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
+
+main {
+  background-color: floralwhite;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 80px;
+  margin-top: 0px;
+  width: 100%;
+  height: 1200px; }
+
+section.mainIndex {
+  width: 100%;
+  height: 900px; }
+  section.mainIndex h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 20px; }
+
+section.banner img {
+  width: 100%;
+  height: 600px;
+  margin-top: 0px; }
+
+.botonesIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px; }
+  .botonesIndex a {
     text-decoration: none;
     color: black;
-    border-radius: 60px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; }
+    .botonesIndex a:hover {
+      font-size: 40px; }
+
+.botonprepa, .botonHerbo, .botonperfu, .botonotros {
+  padding: 25px;
+  margin-bottom: 30px;
+  background-color: lightgreen;
+  width: fit-content;
+  border-radius: 50px; }
+
+main.mainPreparados {
+  width: 100%;
+  height: 1400px; }
+
+section div.titPrep h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 50px; }
+
+section.prepa {
+  display: grid;
+  justify-content: center;
+  justify-items: start;
+  padding: 30px; }
+
+.crema {
+  padding-bottom: 50px; }
+  .crema img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 20px; }
+    .crema img a {
+      display: flex;
+      justify-content: center;
+      font-size: 20px; }
+
+div.crema a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif; }
+
+.textoCrema, .textoGotas, .textoShampoos {
+  display: flex;
+  background-color: lightgreen;
+  width: fit-content;
+  border-radius: 50px;
+  padding: 20px; }
+  .textoCrema p, .textoGotas p, .textoShampoos p {
+    font-size: 20px; }
+
+.gotas {
+  padding-bottom: 50px; }
+  .gotas img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 20px; }
+    .gotas img a {
+      display: flex;
+      justify-content: center;
+      font-size: 20px; }
+
+div.gotas a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif; }
+
+.shampoo img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin-bottom: 20px; }
+  .shampoo img a {
+    display: flex;
+    justify-content: center;
+    font-size: 20px; }
+
+div.shampoo a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif; }
+
+.formulario {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 30px; }
+
+.botonInicioPrepa {
+  padding: 20px;
+  margin-top: 70px; }
+
+.botonInicio {
+  display: flex;
+  justify-content: center; }
+  .botonInicio a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
     padding: 20px;
-}
-.imagenHierba img{
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+    width: fit-content; }
+
+main.mainPerfumeria {
+  width: 100%;
+  height: 1250px;
+  background-color: floralwhite; }
+
+main {
+  grid-area: main; }
+
+div.tituloPerfu h1 {
+  padding: 50px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+
+.perfumes {
+  display: flex;
+  justify-content: center; }
+  .perfumes img {
+    margin-top: 5px;
+    width: 300px;
+    height: 300px; }
+
+.botonesPerfu {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: flex-start;
+  justify-content: space-around;
+  justify-items: center;
+  row-gap: 60px; }
+  .botonesPerfu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+    width: fit-content; }
+
+section.perfu {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+main.mainHerbo {
+  width: 100%;
+  height: 1560px; }
+
+.imagenHierba {
+  display: grid;
+  justify-content: center; }
+  .imagenHierba img {
     margin: 30px;
     width: 300px;
-    height: 470px;
-}
-.mainPerfu{
-    width: 100%;
-    height: 100vh;
-}
+    height: 470px; }
 
-.tituloPerfu h1{
-    padding: 50px;
-    font-size: 30px;
-    font-family:'Roboto', sans-serif;
-    text-align: center;
-}
-.perfumes img{
-    margin-top: 5px;
-    
-    width: 300px;
-    height: 300px;
-}
-section.perfu{
-    margin-top: 50px;
-}
-.botonesPerfu a{
+.herbo {
+  padding: 30px; }
+
+.titHerbo h1 {
+  font-size: 30px;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center; }
+
+.parrafoHerbo h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  display: grid;
+  justify-content: center; }
+
+.parrafoHerbo p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: center; }
+
+.botonListado {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; }
+  .botonListado a {
     text-decoration: none;
     color: black;
-    background-color: lightgreen;
-    width: fit-content;
-    border-radius: 50px;
     font-size: 20px;
-    font-family:'Roboto', sans-serif;
+    border-radius: 50px;
     padding: 20px;
-}
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+    width: fit-content; }
 
-.botonPerfu1{
-    margin-bottom: 40px;
-}
-.botonInicioPrepa{
-    padding: 10px;
-    margin-top: 70px;
-}
-.botonPerfu2{
-    margin-bottom: 40px;
-}
-.botonPerfu3{
-    margin-bottom: 40px;
-}
-.botonPerfu4{
-    margin-bottom: 50px;
-}
-.botonInicio a img{
-    background-color: lightgreen;
-    text-decoration: none;
-}
-.imgOtros img{
-    padding: 30px;
-    width: 250px;
-    height: 250px;
-}
-.imgOtros2 img{
-    padding: 30px;
-    width: 250px;
-    height: 250px;
-}
-.botonesOtro a{
+main.mainOtros {
+  width: 100%;
+  height: 1300px; }
+
+.titOtros h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px; }
+
+.imgOtros img {
+  padding: 30px;
+  width: 250px;
+  height: 250px;
+  display: flex; }
+
+.imgOtros2 img {
+  padding: 30px;
+  width: 250px;
+  height: 250px;
+  display: flex; }
+
+.botonesOtro {
+  padding: 30px; }
+  .botonesOtro a {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    border-radius: 60px;
-    padding: 10px;
+    border-radius: 50px;
+    padding: 20px;
     background-color: lightgreen;
-}
-.botiquin{
-    margin-bottom: 30px;
-}
-.vendas{
-    margin-bottom: 30px;
-}
-.tensiometro{
-    margin-bottom: 30px;
-}
-.termometro{
-    margin-bottom: 30px;
-}
-.balanzas{
-    margin-bottom: 30px;
-}
-.nutricion{
-    margin-bottom: 30px;
-}
-main.mainPreparados{
+    font-family: 'Roboto', sans-serif;
+    width: fit-content; }
+
+.botiquin {
+  margin-bottom: 30px; }
+
+.vendas {
+  margin-bottom: 30px; }
+
+.tensiometro {
+  margin-bottom: 30px; }
+
+.termometro {
+  margin-bottom: 30px; }
+
+.balanzas {
+  margin-bottom: 30px; }
+
+footer {
+  background-color: lightgreen;
+  width: 100%;
+  height: 300px;
+  padding-top: 20px;
+  display: grid;
+  grid-area: footer;
+  grid-template-columns: 75% 25%; }
+
+section.logos {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: end; }
+
+.footerWa img {
+  display: flex;
+  width: 100px;
+  height: 100px; }
+
+.footerFa img {
+  display: flex;
+  width: 100px;
+  height: 100px; }
+
+section.logos {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: end; }
+
+.footerTexto p {
+  display: flex;
+  justify-content: left;
+  padding-top: 20px; }
+
+@media (max-width: 768px) {
+  body.bodyIndex {
+    width: 768px;
+    height: 1200px; }
+  header {
+    width: 768px;
+    height: 300px; }
+  div.container1 {
+    width: 768px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    div.container1 img {
+      width: 80px;
+      height: 80px; }
+  div.titIndexHeader h2 {
+    font-size: 20px;
+    font-weight: bolder; }
+  .textoNav p {
+    font-size: 20px;
+    letter-spacing: 2px; }
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px; }
+  .navBar li a {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #f8f9fa; }
+  section.banner img {
     width: 100%;
-    height: 1400px;
-}
-.crema img{
-    width: 200px;
-    height: 200px;
-}
-.crema{
-    padding-bottom: 50px;
-}
-.crema a{
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-}
-.textoGotas{
-    background-color: lightgreen;
-    width: fit-content;
-    border-radius: 50px;
-    padding: 10px;
-}
-.gotas img{
-    width: 200px;
-    height: 200px;
-}
-.gotas a{
-    font-size: 30px;
-    text-decoration: none;
-    color: black;
-}
-.shampoo img{
-    width:200px ;
-    height: 200px;
-}
-.shampoo a{
-    font-size: 30px;
-    text-decoration: none;
-    color: black;
-}
-.textoShampoos{
-    background-color: lightgreen;
-    width: fit-content;
-    border-radius: 50px;
-    padding: 10px;
-    margin-top: 10px;
-}
-.shampoo{
-    padding-top: 50px;
-}
-.formulario{
-    margin-top: 20px;
-    font-size: 20px;
-}
-.titOtros h1{
-    font-size: 50px;
-}
-.titHeader h2{
+    height: 300px; }
+  section.mainIndex h1 {
+    font-size: 30px; }
+  .titHerbo h1 {
+    font-size: 30px; }
+  .parrafoHerbo p {
+    font-size: 20px; }
+  .titOtros h1 {
+    font-size: 30px; }
+  .titHeader h2 {
     font-weight: bold;
-}
-.textoNav p{
-    font-size: 20px;
-    letter-spacing: 8px;
-    margin-bottom: 0px;
-}
-header.headerHerbo{
+    font-size: 20px; } }
+
+@media (max-width: 576px) {
+  header {
     width: 100%;
-    height: 300px;
-    margin: 0px;
-}
-main.mainHerbo{
+    height: 300px; }
+  main.mainIndex2 {
     width: 100%;
-    height: 1560px;
-    padding-top: 0px;
-}
-footer.footerHerbo{
+    height: 1200px; }
+  main.mainHerbo {
     width: 100%;
-    height: 300px;
-}
-body.bodyHerbo{
-    width: 100%;
-    height: 2200px;
-}
-
-
-.botonInicio a{
-    font-size: 30px;
-    font-family:'Roboto', sans-serif;
-    text-decoration: none;
-    color: black;
-    background-color: lightgreen;
-    border-radius: 60px;
-    padding: 20px;
-}
-
-.herbo{
-    padding: 30px;
-
-}
-.titPrep h1{
-    padding: 50px;
-    font-size: 30px;
-    margin-top: 0px;
-}
-.titHerbo h1{
-    font-size: 50px;
-    padding: 30px;
-}
-.parrafoHerbo p{
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-
-.container1{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-.container1 div img{
-    width: 200px;
-    height: 200px;
-}
-.navBar{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-right: 20px;
-}
-.textoNav{
-    display: flex;
-    flex-direction: column;
-}
-.container-grid1{
-    display: grid;
-    align-items: normal;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(6,1fr);
-    grid-template-areas: 
-    "header header header header"
-    "main main main main"
-    "main main main main"
-    "main main main main"
-    "main main main main"
-    "footer footer footer footer"
-    ;
-}
-header{
-    grid-area: header;
-}
-main{
-    grid-area: main;
-}
-footer{
-    grid-area: footer;
-}
-header{
-    margin-bottom: 0px;
-}
-main.mainIndex2{
-    width: 100%;
-    height: 1200px;
-    background-color: floralwhite;
-
-}
-.container-grid1{
-    width: 100%;
-    height: 100%;
-}
-
-footer{
-    display: grid;
-    grid-template-columns: 75% 25%;
-    width: 100%;
-    height: 300px;
-}
-.footerTexto p{
-    display: flex;
-    justify-content: left;
-    padding-top: 20px
-}
-section.logos{
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-content: end;
-}
-main.mainIndex{
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-content:center;
-    justify-items: center;
-}
-.botonesIndex{
-    padding-top: 50px;
-
-}
-
-.imagenHierba{
-    display: grid;
-    justify-content: center;
-}
-.parrafoHerbo h3{
-    font-family:'Roboto', sans-serif;
-    font-size: 30px;
-    display: grid;
-    justify-content: center;
-}
-.parrafoHerbo p{
-    display: flex;
-    justify-content: center;
-}
-.botonListado{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.botonInicio{
-    display: flex;
-    justify-content: center;
-}
-
-.prepa{
-    display: grid;
-    justify-content: center;
-    justify-items: start;
-}
-.crema a{
-    display: flex;
-    justify-content: center;
-}
-.gotas a{
-    display: flex;
-    justify-content: center;
-}
-
-fieldset{
-    font-size: 20px;
-    height: 100px;
-}
-input{
-    height: 40px;
-}
-input:focus{
-    background-color: lightgreen;
-}
-.container-perfu{
-    display: flex;
-    justify-content: center;
-}
-main.mainPerfumeria{
-    width: 100%;
-    height: 1250px;
-}
-.perfumes{
-    display: flex;
-    justify-content: center;
-}
-.botonesPerfu{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: flex-start;
-    justify-content: space-around;
-    justify-items: center;
-    row-gap: 30px;
-}
-header.headerOtros{
-    width: 100%;
-    height: 300px;
-}
-main.mainOtros{
-    width: 100%;
-    height: 1300px;
-}
-div.nav-otros ul li a{
-    color: black;
-    font-size: 30px;
-    --bs-nav-link-hover-color: #f8f9fa;
-}
-div.nav-otros ul{
-    display: flex;
-    flex-direction: column;
-}
-div.botonInicioOtros a{
-    font-size: 30px;
-}
-.nutricion{
-    margin-bottom: 20px;
-}
-body.bodyOtros{
-    font-family:'Roboto', sans-serif;
-}
-
-
-
-
-
-@media (max-width: 768px){
-    .container-grid1{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(4,1fr);
-        width: 768px;
-        height: 980px;
-    }
-    body{
-        width: 768px;
-        height: 1200px;
-    }
-    div.container1{
-        display: flex;
-        flex-direction: column;
-        width: 768px;
-        height: 350px;
-    }
-    header{
-        width: 768px;
-        height: 300px;
-    }
-    main{
-        width:768px;
-        height: 900px;
-    }
-    section.mainIndex{
-        width: 768px;
-        height: 350px;
-    }
-    section h1{
-        font-size: 30px;
-        padding-top: 20px;
-        padding-bottom: 0px;
-    }
-    .botonesIndex a{
-        font-size: 20px;
-        width: 768px;
-        height: 600px;
-    }
-    .botonesIndex{
-        row-gap: 10px;
-    }
-    footer{
-        width: 768px;
-        height: 250px;
-    }
-    div.imagenLogoHeader img{
-        width: 100px;
-        height: 100px;
-    }
-    .footerTexto p{
-        font-size: 20px;
-    }
-    div img{
-        width: 70px;
-        height: 70px;
-        margin-right:  0px;
-    }
-    section.logos{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 80px;
-        height: 80px;
-    }
-    div.footerWa{
-        padding-bottom: 10px;
-    }
-    
-    .footerTitulo{
-        font-size: 10px;
-    }
-    div h2{
-        font-size: 20px;
-    }
-    div.textoNav p{
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-    .navBar li a{
-        font-size: 15px;   
-        font-weight: bolder; 
-        color: #f8f9fa;
-
-    }
-    nav{
-        display: flex;
-        flex-direction: row;
-        padding-top: 30px;
-    }
-    .navBar{
-        display: flex;
-        flex-direction: row;
-    }
-    section.banner img{
-        width: 768px;
-        height: 300px;
-    }
-}
-@media (max-width:576px){
-
-    body.bodyIndex{
-        width: 576px;
-        height: 900px;
-    }
-    .container-grid1{
-        width: 576px;
-        height: 900px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr);
-    }
-    div.container-grid1{
-        margin-right: 0pxS;
-        width: 576px;
-    }
-    section.mainIndex{
-        height: 600px;
-        width: 576px;
-        margin-right: 0px;
-    }
-    main.mainIndex2{
-        width: 576px;
-        height: 900px;
-    }
-    .container1{
-        width: 576px;
-        height: 280px;
-        padding-top: 20px;
-        padding-bottom: 0px;
-        display: flex;
-    }
-    div.textoNav{
-        display: flex;
-    }
-    ul.navBar{
-        display: flex;
-        flex-direction: row;
-    }
-    div.imagenLogoHeader{
-        padding-bottom: 5px;
-        display: flex;
-        flex-direction: row;
-    }
-    div.titIndexHeader{
-        display: flex;
-    }
-    header{
-        width: 576px;
-        height: 300px;
-        display: flex;
-    }
-    section.banner img{
-        width: 576px;
-        height: 200px;
-    }
-    main.mainIndex{
-        width: 576px;
-        height: 900px;
-        margin-top: 0px;
-    }
-    footer{
-        width: 576px;
-        height: 250px;
-    }
-    .botonesIndex a{
-        font-size: 20px;
-        padding: 8px;
-    }
-    .botonesIndex{
-        margin-bottom: 20px;
-    }
-    section h1{
-        font-size: 40px;
-    }
-    .footerTexto p{
-        font-size: 15px;
-    }
-    .footerWa img{
-        width: 70px;
-        height: 70px;
-        display: flex;
-    }
-    .footerFa img{
-        width: 70px;
-        height: 70px;
-    }
-}
-@media (max-width: 768px){
-    
-    
-    div h2{
-        font-size: 20px;
-        font-weight: bolder;
-    }
-    div.textoNav p{
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-    div.nav-otros ul li a{
-        font-size:15px;
-        font-weight: bold;
-        color: #f8f9fa;
-    }
-    nav.navBarOtros{
-        display: flex;
-        flex-direction: row;
-    }
-    .containerOtros div  img{
-        width: 100px;
-        height: 100px;
-    }
-    div.boxIndex1{
-        margin-bottom: 10px;
-    }
-    div.containerOtros{
-        display: flex;
-        flex-direction: column;
-        width: 768px;
-        height: 200px;
-        padding: 20px;
-    }
-    
-    section.sectionBotonesOtros{
-        width: 768px;
-        height: 500px;
-    }
-    div.titOtros h1{
-        font-size: 30px;
-        font-weight: bold;
-        margin-top: 5px;
-        padding-top: 5px;
-    }
-    body.bodyOtros{
-        width: 768px;
-        height: 980px;
-    }
-    .container1{
-        display: flex;
-        flex-direction: column;
-    }
-    .botonesOtro a{
-        font-size: 20px;
-        padding: 10px;
-    }
-    div.botonesOtro{
-        width: 768px;
-        height: 300px;
-        padding: 0px;
-        margin: 0px;
-    }
-    .botiquin {
-        margin-top: 30px;
-        margin-bottom: 8px;
-    }
-    .vendas{
-        margin-bottom: 8px;
-    }
-    .tensiometro{
-        margin-bottom: 8px;
-    }
-    .termometro{
-        margin-bottom: 8px;
-    }
-    .balanzas{
-        margin-bottom: 8px;
-    }
-    .nutricion{
-        margin-bottom: 8px;
-    }
-    div.botonInicioOtros a{
-        font-size: 20px;
-        padding: 10px;
-    }
-    .container1 div img{
-        width: 80px;
-        height: 80px;
-    }
-    div.container1{
-        width: 768px;
-        height: 300px;
-        display: flex;
-    }
-    div.nav-otros ul{
-        display: flex;
-        flex-direction: row;
-        margin-right: 0px;
-    }
-    .imagenLogoHeader{
-        display: flex;
-    }
-    .imgOtros img{
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        padding: 5px;
-        
-    }
-    .imgOtros2 img{
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        padding: 5px;
-    }
-    .container-perfu{
-        width: 768px;
-        height: 900px;
-    }
-    main.mainOtros{
-        width: 768px;
-        height: 900px;
-    }
-    .tituloPerfu h1{
-        font-size: 30px;
-        padding-bottom: 0px;
-        padding-top: 0px;
-    }
-    .tituloPerfu{
-        display: flex;
-        justify-content: center;
-        padding-top: 40px;
-        
-    }
-    .perfumes img{
-        width: 250px;
-        height: 250px;
-        margin-left: 0px;
-        margin-bottom: 50px;
-        margin-top: 30px;
-    }
-    div.perfumes{
-        display: flex;
-    }
-    
-    .botonesPerfu a{
-        font-size: 20px;
-        row-gap: 20px;
-    }
-    .botonInicioPerfu a{
-        font-size: 20px;
-        padding: 20px;
-    }
-    div.botonInicioOtros a{
-        font-size: 20px;
-        padding: 5px;
-        margin-top: 90px;
-    }
-    div.botonInicio{
-        margin-right: 5px;
-        margin-top: 40px;
-    }
-}
-@media (max-width: 576px){
-    body.bodyOtros{
-        width: 576px;
-        height: 900px;
-    }
-    
-    div.container1{
-        width: 576px;
-        height: 300px;
-        display: flex;
-    }
-    header.headerOtros{
-        width: 576px;
-        height: 300px;
-        display: flex;
-    }
-    main.mainOtros{
-        width: 576px;
-        height: 900px;
-        margin: 0px;
-        margin-right: 0px;
-        padding-right: 0px;
-    }
-    div.boxIndex1{
-        width: 80px;
-        height: 80px;
-    }
-    div.nav-otros ul li a{
-        font-size: 10px;
-    }
-    div.nav-otros ul{
-        display: flex;
-        flex-direction:row;
-    }
-    ul.navBar{
-        padding-right: 5px;
-    }
-    section.sectionBotonesOtros{
-        width: 576px;
-        height: 400px;
-    }
-    .perfumes img{
-        width: 250px;
-        height: 270px;
-        margin-top: 40px;
-        margin-bottom: 60px;
-    }
-    div.botonesOtro a{
-        font-size: 20px;
-        padding: 10px;
-        row-gap: 10px;
-        margin: 0px;
-    }
-    div.botonesOtro{
-        width: 576px;
-        height: 400px;
-        margin-right: 0px;
-    }
-    .botiquin{
-        margin-top: 0px;
-    }
-    .vendas{
-        margin-top: 0px;
-    }
-    div.botonInicio{
-        margin-top: 40px;
-    }
-    footer{
-        width: 576px;
-        height: 200px;
-        padding-top:0px;
-        margin-right: 0px;
-        display: flex;
-        align-items: center;
-    }
-    .botonPerfu4{
-        margin-bottom: 20px;
-    }
-    div.footerWa{
-        padding-bottom: 5px;
-    }
-    div.textoNav p{
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-    section.logos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    section.sectionFotos{
-        width: 576px;
-        padding-right: 0px;
-    }
-    div.imgOtro{
-        padding-right: 0px;
-    }
-}
-@media (max-width: 576px){
-    .imagenHierba img{
+    height: 1560px; }
+  div.textoNav p {
+    font-size: 15px;
+    letter-spacing: 1px; }
+  .imagenHierba img {
     width: 150px;
-    height: 170px;
-    }
-    .titHerbo h1{
-        font-size: 30px;
-    }
-    .parrafoHerbo h3{
-        font-size: 20px;
-    }
-    .parrafoHerbo p{
-        font-size: 20px;
-    }
-    .botonListado a{
-        font-size: 15px;
-    }
-}
-@media (max-width: 576px){
-    .titPrep h1{
-        font-size: 30px;
-    }
-    input{
-        height: 20px;
-    }
-    header{
-        width: 100%;
-        height: 300px;
-    }
-    footer{
-        width: 100%;
-        height: 300px;
-    }
-}
-@media (max-width: 768px){
-    .botonListado a{
-        font-size: 15px;
-    }
-    .titHerbo h1{
-        font-size: 30px;
-    }
-    .parrafoHerbo p{
-        font-size: 20px;
-    }
-}
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    height: 170px; }
+  div.parrafoHerbo h3 {
+    font-size: 20px; }
+  .botonListado a {
+    font-size: 15px; } }
