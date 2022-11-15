@@ -3,6 +3,7 @@
     height: 200px;
     display: flex;
     margin-bottom: 20px;
+    border-radius: 60px;
 }
 @mixin prop-botones{
     text-decoration: none;
@@ -14,4 +15,10 @@
     font-family:'Roboto', sans-serif;
     width: fit-content;
     
+}
+@mixin prop-img-otros {
+    padding: $pad30;
+    width: 250px;
+    height: 250px;
+    border-radius: 60px;
 }
