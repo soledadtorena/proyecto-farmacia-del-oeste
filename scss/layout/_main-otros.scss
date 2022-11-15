@@ -1,45 +1,60 @@
 main.mainOtros{
     width: 100%;
     height: 1300px;
-}
-.titOtros h1{
-    text-align: center;
-    font-family:'Roboto', sans-serif;
-    font-size: $medida-titulos-main;
-    font-weight: bold;
-    margin-top: 20px;
-}
-.imgOtros img{
-    padding: $pad30;
-    width: 250px;
-    height: 250px;
-    display: flex;
-}
-.imgOtros2 img{
-    padding: $pad30;
-    width: 250px;
-    height: 250px;
-    display: flex;
+    div.titOtros{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+    h1{
+        font-family:'Roboto', sans-serif;
+        font-size: $medida-titulos-main;
+        font-weight: bold;
+        padding-top: 20px;
+        
+}   
 }
 .botonesOtro{
+    text-align: center;
     padding: $pad30;
     a{
     @include prop-botones;
     }
 }
 .botiquin{
-    margin-bottom: $marg30;
+    margin-bottom:50px;
 }
 .vendas{
-    margin-bottom: $marg30;
+    margin-bottom: 50px;
 }
 .tensiometro{
-    margin-bottom: $marg30;
+    margin-bottom: 50px;
 }
 .termometro{
-    margin-bottom: $marg30;
+    margin-bottom: 50px;
 }
 .balanzas{
-    margin-bottom: $marg30;
+    margin-bottom: 50px;
 }
+}
+div.imgOtros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+img{
+    padding: $pad30;
+    width: 250px;
+    height: 250px;
+}
+}
+.imgOtros2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
+img{
+    padding: $pad30;
+    width: 250px;
+    height: 250px;
+    
+}
+}

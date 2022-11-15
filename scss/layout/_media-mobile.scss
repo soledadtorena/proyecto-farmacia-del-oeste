@@ -1,35 +1,36 @@
-@media (max-width: 576px){
-    header{
-        width: 100%;
-        height: 300px;
-    }
-    main.mainIndex2{
+@media (max-width:576px){
+    body.bodyIndex{
         width: 576px;
         height: 900px;
     }
-    body.bodyIndex{
+    header{
         width: 576px;
-        height: 1200px;
+        height: 300px;
+        display: flex;
+        div.container1{
+            width: 576px;
+            height: 300px;
+            h2{
+                font-size: 20px;
+                font-weight: bold;
+            }
     }
-    .botonesIndex a{
-        font-size: 20px;
+}
+footer{
+    div.footerTexto{
+        margin-top: 20px;
+        margin-left: 20px;
     }
-    main.mainHerbo{
-        width: 100%;
-        height: 1560px;
+    section.logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
-    div.textoNav p{
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-    .imagenHierba img{
-        width: 150px;
-        height: 170px;
-    }
-    div.parrafoHerbo h3{
-        font-size: 20px;
-    }
-    .botonListado a{
-        font-size: 15px;
-    }
+}
+.parrafoHerbo p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
 }

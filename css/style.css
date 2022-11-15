@@ -8,7 +8,7 @@ header {
   width: 100%;
   height: 300px; }
   header h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif; }
 
 .container1 {
@@ -21,7 +21,7 @@ header {
     display: flex; }
 
 .textoNav p {
-  font-size: 20px;
+  font-size: 10px;
   letter-spacing: 8px;
   margin-bottom: 0px;
   font-family: 'Roboto', sans-serif; }
@@ -36,7 +36,7 @@ header {
     .navBar li a {
       text-decoration: none;
       color: black;
-      font-size: 30px;
+      font-size: 15px;
       font-family: 'Roboto', sans-serif; }
       .navBar li a:hover {
         color: #f8f9fa; }
@@ -249,7 +249,7 @@ main.mainHerbo {
   .imagenHierba img {
     margin: 30px;
     width: 300px;
-    height: 470px; }
+    height: 370px; }
 
 .herbo {
   padding: 30px; }
@@ -259,12 +259,12 @@ main.mainHerbo {
   padding: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: center; }
 
 .parrafoHerbo h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   display: grid;
   justify-content: center; }
 
@@ -292,52 +292,55 @@ main.mainHerbo {
 main.mainOtros {
   width: 100%;
   height: 1300px; }
+  main.mainOtros div.titOtros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    main.mainOtros div.titOtros h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      padding-top: 20px; }
+  main.mainOtros .botonesOtro {
+    text-align: center;
+    padding: 30px; }
+    main.mainOtros .botonesOtro a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      border-radius: 50px;
+      padding: 20px;
+      background-color: lightgreen;
+      font-family: 'Roboto', sans-serif;
+      width: fit-content; }
+  main.mainOtros .botiquin {
+    margin-bottom: 50px; }
+  main.mainOtros .vendas {
+    margin-bottom: 50px; }
+  main.mainOtros .tensiometro {
+    margin-bottom: 50px; }
+  main.mainOtros .termometro {
+    margin-bottom: 50px; }
+  main.mainOtros .balanzas {
+    margin-bottom: 50px; }
 
-.titOtros h1 {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 20px; }
+div.imgOtros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  div.imgOtros img {
+    padding: 30px;
+    width: 250px;
+    height: 250px; }
 
-.imgOtros img {
-  padding: 30px;
-  width: 250px;
-  height: 250px;
-  display: flex; }
-
-.imgOtros2 img {
-  padding: 30px;
-  width: 250px;
-  height: 250px;
-  display: flex; }
-
-.botonesOtro {
-  padding: 30px; }
-  .botonesOtro a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    border-radius: 50px;
-    padding: 20px;
-    background-color: lightgreen;
-    font-family: 'Roboto', sans-serif;
-    width: fit-content; }
-
-.botiquin {
-  margin-bottom: 30px; }
-
-.vendas {
-  margin-bottom: 30px; }
-
-.tensiometro {
-  margin-bottom: 30px; }
-
-.termometro {
-  margin-bottom: 30px; }
-
-.balanzas {
-  margin-bottom: 30px; }
+.imgOtros2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .imgOtros2 img {
+    padding: 30px;
+    width: 250px;
+    height: 250px; }
 
 footer {
   background-color: lightgreen;
@@ -347,31 +350,27 @@ footer {
   display: grid;
   grid-area: footer;
   grid-template-columns: 75% 25%; }
-
-section.logos {
-  display: grid;
-  grid-template-rows: 1fr;
-  justify-content: end; }
-
-.footerWa img {
-  display: flex;
-  width: 100px;
-  height: 100px; }
-
-.footerFa img {
-  display: flex;
-  width: 100px;
-  height: 100px; }
-
-section.logos {
-  display: grid;
-  grid-template-rows: 1fr;
-  justify-content: end; }
-
-.footerTexto p {
-  display: flex;
-  justify-content: left;
-  padding-top: 20px; }
+  footer .footerTexto {
+    margin-left: 50px; }
+    footer .footerTexto p {
+      display: flex;
+      justify-content: left;
+      padding-top: 20px;
+      font-family: 'Roboto', sans-serif; }
+  footer section.logos {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: end;
+    margin-right: 50px; }
+    footer section.logos div.footerWa img {
+      display: flex;
+      width: 100px;
+      height: 100px; }
+    footer section.logos div.footerFa img {
+      display: flex;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px; }
 
 @media (max-width: 768px) {
   body.bodyIndex {
@@ -419,27 +418,27 @@ section.logos {
     font-size: 20px; } }
 
 @media (max-width: 576px) {
-  header {
-    width: 100%;
-    height: 300px; }
-  main.mainIndex2 {
-    width: 576px;
-    height: 900px; }
   body.bodyIndex {
     width: 576px;
-    height: 1200px; }
-  .botonesIndex a {
-    font-size: 20px; }
-  main.mainHerbo {
-    width: 100%;
-    height: 1560px; }
-  div.textoNav p {
+    height: 900px; }
+  header {
+    width: 576px;
+    height: 300px;
+    display: flex; }
+    header div.container1 {
+      width: 576px;
+      height: 300px; }
+      header div.container1 h2 {
+        font-size: 20px;
+        font-weight: bold; }
+  footer div.footerTexto {
+    margin-top: 20px;
+    margin-left: 20px; }
+  footer section.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .parrafoHerbo p {
     font-size: 15px;
-    letter-spacing: 1px; }
-  .imagenHierba img {
-    width: 150px;
-    height: 170px; }
-  div.parrafoHerbo h3 {
-    font-size: 20px; }
-  .botonListado a {
-    font-size: 15px; } }
+    letter-spacing: 1px; } }

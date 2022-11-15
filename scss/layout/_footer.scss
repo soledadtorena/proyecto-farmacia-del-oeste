@@ -6,29 +6,32 @@ footer{
     display: grid;
     grid-area: footer;
     grid-template-columns: 75% 25%;
+    .footerTexto{
+        margin-left: 50px;
+    p{
+        display: flex;
+        justify-content: left;
+        padding-top: 20px;
+        font-family:'Roboto', sans-serif;
+    }
+    }
+    section.logos{
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: end;
+        margin-right: 50px;
+        div.footerWa img{
+            display: flex;
+            width: 100px;
+            height: 100px;
+        }
+        div.footerFa img{
+                display: flex;
+                width: 100px;
+                height: 100px;
+                margin-bottom: 15px;
+                }
+            
+        }
 }
-section.logos{
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-content: end;
-}
-.footerWa img{
-    display: flex;
-    width: 100px;
-    height: 100px;
-}
-.footerFa img{
-    display: flex;
-    width: 100px;
-    height: 100px;
-}
-section.logos{
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-content: end;
-}
-.footerTexto p{
-    display: flex;
-    justify-content: left;
-    padding-top: 20px
-}
+
