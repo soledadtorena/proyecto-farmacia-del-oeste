@@ -6,26 +6,26 @@ main.mainHerbo{
     display: grid;
     justify-content: center;
     img{
-    margin: 30px;
     width: 300px;
     height: 370px;
     border-radius: 60px;
+    margin-top: 30px;
     }
 }
 .herbo{
-    padding: $pad30;
+    padding:50px;
 }
 .titHerbo h1{
     font-size: $medida-titulos-main;
     padding: $pad30;
     font-family:'Roboto', sans-serif;
     font-weight: bold;
-    margin-top: 25px;
     text-align: center;
 }
 .parrafoHerbo h3{
     font-family:'Roboto', sans-serif;
     font-size: 20px;
+    margin-bottom: 10px;
     display: grid;
     justify-content: center;  
 }
@@ -33,16 +33,20 @@ main.mainHerbo{
     font-family:'Roboto', sans-serif;
     font-size: 25px;
     letter-spacing: 4px;
-    color:  rgb(25, 141, 25);
+    color:  rgb(3, 3, 3);
     display: flex;
     justify-content: center;
+    .colorVerde{
+        color:  rgb(25, 141, 25);   
+    }
 }
+
 .botonListado{
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     a{
-     @include prop-botones;   
+    @include prop-botones;   
 }
 
 }

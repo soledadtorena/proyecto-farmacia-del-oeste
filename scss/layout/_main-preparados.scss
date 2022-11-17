@@ -86,11 +86,16 @@ div.shampoo a{
     @extend .textoCrema
 }
 .formulario{
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
-    height: 30px;
+    height: 50px;
+    fieldset{
+        font-family:'Roboto', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
 }
 .botonInicioPrepa{
     padding: 20px;

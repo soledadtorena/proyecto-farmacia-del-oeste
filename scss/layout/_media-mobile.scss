@@ -15,6 +15,10 @@
                 font-weight: bold;
             }
     }
+    div.textoNav p{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
 }
 footer{
     div.footerTexto{
@@ -26,11 +30,25 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        div.footerWa{
+        margin-bottom: 25px;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+        }   
+        div.footerFa img{
+            width: 70px;
+            height: 70px;
+        }
 
     }
 }
 .parrafoHerbo p{
     font-size: 15px;
     letter-spacing: 1px;
+}
+.botonListado a{
+    font-size: 15px;
 }
 }

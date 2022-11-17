@@ -1,5 +1,5 @@
 footer{
-    background-color: lightgreen;
+    background-color: rgb(25, 141, 25);
     width: 100%;
     height: 300px;
     padding-top: 20px;
@@ -11,8 +11,9 @@ footer{
     p{
         display: flex;
         justify-content: left;
-        padding-top: 20px;
+        padding-top: 35px;
         font-family:'Roboto', sans-serif;
+        color:floralwhite;
     }
     }
     section.logos{
@@ -20,16 +21,12 @@ footer{
         grid-template-rows: 1fr;
         justify-content: end;
         margin-right: 50px;
+        margin-bottom: 10px;
         div.footerWa img{
-            display: flex;
-            width: 100px;
-            height: 100px;
+            @include prop-logos-footer;
         }
         div.footerFa img{
-                display: flex;
-                width: 100px;
-                height: 100px;
-                margin-bottom: 15px;
+                @include prop-logos-footer;
                 }
             
         }

@@ -22,3 +22,10 @@
     height: 250px;
     border-radius: 60px;
 }
+@mixin prop-logos-footer {
+    display: flex;
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+    
+}
